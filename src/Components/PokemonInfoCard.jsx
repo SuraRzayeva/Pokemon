@@ -3,6 +3,7 @@ import { StyledPokemonInfoCard } from '../StyledComponents/StyledPokemonInfoCard
 import Loading from './Loading'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import Credit from './Credit'
 
 const PokemonInfoCard = ({ name, id, text, color, habitat, type, hp, japanese, attack, defense, spa, spd, speed }) => {
   if (!id) {

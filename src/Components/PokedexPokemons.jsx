@@ -11,6 +11,7 @@ import SearchBar from './SearchBar'
 import Loading from './Loading'
 import FlashMessage from './FlashMessage'
 import ScrollUpBtn from './ScrolUpBtn'
+import Credit from './Credit'
 
 const PokedexPokemons = () => {
   const [{ pokemon, loading, error }, fetchFunction] = FetchPokemons()
@@ -88,7 +89,7 @@ const PokedexPokemons = () => {
         ))}
       </Grid>
       {!allLoaded && <LoadMoreBtn callback={loadMorePokemon} />}
-
+      <Credit />
       <ScrollUpBtn />
     </StyledPokedexPokemons>
   )
