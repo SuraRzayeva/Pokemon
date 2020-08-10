@@ -22,7 +22,6 @@ width: 70%;
   text-transform: capitalize;
   place-items: center;
   justify-content: center;
-  grid-gap: 50px;
   margin: 100px 0;
 
 

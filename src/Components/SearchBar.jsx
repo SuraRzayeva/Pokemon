@@ -12,9 +12,11 @@ const SearchBar = ({ callback }) => {
 
   const updateState = event => {
     const input = event.target.value
+    const lowerInput = input.toString().toLowerCase(input)
+
     setError(false)
     clearTimeout(timeOut.current)
-    setState(input)
+    setState(lowerInput)
   }
 
   const submitForm = e => {

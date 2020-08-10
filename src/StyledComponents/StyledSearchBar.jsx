@@ -17,12 +17,15 @@ align-items: center;
 }
 
 form {
-  width: 70%;
+  width: 350px;
+  height: 50px;
   position: relative;
 margin: auto;
-
+display: flex;
+justify-content: center;
+align-items: center;
   input {
-    height: 50px;
+height: 100%;
     width: 100%;
     border-style: none;
     border-radius: 50px;
@@ -40,11 +43,11 @@ margin: auto;
 
     button {
       position: absolute;
-      right: -5px;
+      right: 0;
       top: 0;
       border-style: none;
-      height: 52px;
-      width: 52px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
       background-color: #3C5AA6;
       border: 3px solid #FFCB05;

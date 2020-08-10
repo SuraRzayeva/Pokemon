@@ -20,7 +20,6 @@ export const FetchSearchedPokemon = searchedTerm => {
     try {
       const response = await Axios.get(endpoint)
       setSearchedPokemon(response.data)
-      console.log(response.data)
     } catch (error) {
       setError(true)
     }

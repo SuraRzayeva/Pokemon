@@ -16,7 +16,7 @@ position: relative;
 border-radius: 30px;
 box-shadow:  10px 10px 30px #93c8b3, -10px -10px 30px #c7fff3;
 animation: cardAnim 1s forwards ease;
-
+margin: 30px;
 
 .back-circle {
   width: 150px;
